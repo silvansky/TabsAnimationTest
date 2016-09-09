@@ -60,15 +60,16 @@ const NSString *kSRHorizontalSwipeGestureKey = @"kSRHorizontalSwipeGestureKey";
 
 			BOOL rightToLeftSwipe = vel.x < 0;
 
-			self.interactionInProgress = YES;
-
 			// for tab controllers, we need to determine which direction to transition
 			if (rightToLeftSwipe) {
 				if (_viewController.tabBarController.selectedIndex < _viewController.tabBarController.viewControllers.count - 1) {
+					self.interactionInProgress = YES;
 					_viewController.tabBarController.selectedIndex++;
 				}
+
 			} else {
 				if (_viewController.tabBarController.selectedIndex > 0) {
+					self.interactionInProgress = YES;
 					_viewController.tabBarController.selectedIndex--;
 				}
 			}
