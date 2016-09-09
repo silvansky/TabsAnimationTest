@@ -1,0 +1,21 @@
+PODS:
+  - VCTransitionsLibrary (1.5.0)
+
+DEPENDENCIES:
+  - VCTransitionsLibrary (from `https://github.com/ColinEberhardt/VCTransitionsLibrary.git`)
+
+EXTERNAL SOURCES:
+  VCTransitionsLibrary:
+    :git: https://github.com/ColinEberhardt/VCTransitionsLibrary.git
+
+CHECKOUT OPTIONS:
+  VCTransitionsLibrary:
+    :commit: 4ce0512ffac852abf44643295860661366230d9f
+    :git: https://github.com/ColinEberhardt/VCTransitionsLibrary.git
+
+SPEC CHECKSUMS:
+  VCTransitionsLibrary: 3a4e50a4b297fcc4d3670e6d2b1381932cc473d9
+
+PODFILE CHECKSUM: 4caea1beebd4fd4c3915b448d9df5356dfc05864
+
+COCOAPODS: 1.0.0

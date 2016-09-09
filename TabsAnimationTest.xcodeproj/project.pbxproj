@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		695D84A090525AF8B50A0A39 /* libPods-TabsAnimationTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E10AC44C2EF57621076761 /* libPods-TabsAnimationTest.a */; };
+		A334D14F1D81DA97009677AA /* SRHorizontalSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A334D14C1D81DA97009677AA /* SRHorizontalSwipeInteractionController.m */; };
+		A334D1501D81DA97009677AA /* SRPanAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A334D14E1D81DA97009677AA /* SRPanAnimationController.m */; };
+		A38AFDC61D81D54700EB36DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AFDC51D81D54700EB36DA /* main.m */; };
+		A38AFDC91D81D54700EB36DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AFDC81D81D54700EB36DA /* AppDelegate.m */; };
+		A38AFDCC1D81D54700EB36DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AFDCB1D81D54700EB36DA /* ViewController.m */; };
+		A38AFDCF1D81D54700EB36DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38AFDCD1D81D54700EB36DA /* Main.storyboard */; };
+		A38AFDD11D81D54700EB36DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38AFDD01D81D54700EB36DA /* Assets.xcassets */; };
+		A38AFDD41D81D54700EB36DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38AFDD21D81D54700EB36DA /* LaunchScreen.storyboard */; };
+		A38AFDDD1D81D5A900EB36DA /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AFDDC1D81D5A900EB36DA /* TabBarController.m */; };
+		A38AFDE01D81D5BF00EB36DA /* ColoredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38AFDDF1D81D5BF00EB36DA /* ColoredViewController.m */; };
+		A38AFDE21D81D60D00EB36DA /* ColoredView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38AFDE11D81D60D00EB36DA /* ColoredView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20E10AC44C2EF57621076761 /* libPods-TabsAnimationTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TabsAnimationTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B512E80141C79DDB60AA74B /* Pods-TabsAnimationTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabsAnimationTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabsAnimationTest/Pods-TabsAnimationTest.release.xcconfig"; sourceTree = "<group>"; };
+		70814E26B2B420C112002C55 /* Pods-TabsAnimationTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabsAnimationTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabsAnimationTest/Pods-TabsAnimationTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A334D14B1D81DA97009677AA /* SRHorizontalSwipeInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHorizontalSwipeInteractionController.h; sourceTree = "<group>"; };
+		A334D14C1D81DA97009677AA /* SRHorizontalSwipeInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHorizontalSwipeInteractionController.m; sourceTree = "<group>"; };
+		A334D14D1D81DA97009677AA /* SRPanAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPanAnimationController.h; sourceTree = "<group>"; };
+		A334D14E1D81DA97009677AA /* SRPanAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPanAnimationController.m; sourceTree = "<group>"; };
+		A38AFDC11D81D54700EB36DA /* TabsAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabsAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38AFDC51D81D54700EB36DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A38AFDC71D81D54700EB36DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A38AFDC81D81D54700EB36DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A38AFDCA1D81D54700EB36DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A38AFDCB1D81D54700EB36DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A38AFDCE1D81D54700EB36DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A38AFDD01D81D54700EB36DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A38AFDD31D81D54700EB36DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A38AFDD51D81D54700EB36DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A38AFDDB1D81D5A900EB36DA /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		A38AFDDC1D81D5A900EB36DA /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		A38AFDDE1D81D5BF00EB36DA /* ColoredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredViewController.h; sourceTree = "<group>"; };
+		A38AFDDF1D81D5BF00EB36DA /* ColoredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredViewController.m; sourceTree = "<group>"; };
+		A38AFDE11D81D60D00EB36DA /* ColoredView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColoredView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A38AFDBE1D81D54700EB36DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695D84A090525AF8B50A0A39 /* libPods-TabsAnimationTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A38AFDB81D81D54700EB36DA = {
+			isa = PBXGroup;
+			children = (
+				A38AFDC31D81D54700EB36DA /* TabsAnimationTest */,
+				A38AFDC21D81D54700EB36DA /* Products */,
+				E0EF11648B52CF69F8A262E6 /* Pods */,
+				C1952DF6318E65B9B0AADBB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A38AFDC21D81D54700EB36DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A38AFDC11D81D54700EB36DA /* TabsAnimationTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A38AFDC31D81D54700EB36DA /* TabsAnimationTest */ = {
+			isa = PBXGroup;
+			children = (
+				A38AFDC71D81D54700EB36DA /* AppDelegate.h */,
+				A38AFDC81D81D54700EB36DA /* AppDelegate.m */,
+				A38AFDCA1D81D54700EB36DA /* ViewController.h */,
+				A38AFDCB1D81D54700EB36DA /* ViewController.m */,
+				A38AFDCD1D81D54700EB36DA /* Main.storyboard */,
+				A38AFDE11D81D60D00EB36DA /* ColoredView.xib */,
+				A38AFDDB1D81D5A900EB36DA /* TabBarController.h */,
+				A38AFDDC1D81D5A900EB36DA /* TabBarController.m */,
+				A38AFDDE1D81D5BF00EB36DA /* ColoredViewController.h */,
+				A38AFDDF1D81D5BF00EB36DA /* ColoredViewController.m */,
+				A334D14B1D81DA97009677AA /* SRHorizontalSwipeInteractionController.h */,
+				A334D14C1D81DA97009677AA /* SRHorizontalSwipeInteractionController.m */,
+				A334D14D1D81DA97009677AA /* SRPanAnimationController.h */,
+				A334D14E1D81DA97009677AA /* SRPanAnimationController.m */,
+				A38AFDD01D81D54700EB36DA /* Assets.xcassets */,
+				A38AFDD21D81D54700EB36DA /* LaunchScreen.storyboard */,
+				A38AFDD51D81D54700EB36DA /* Info.plist */,
+				A38AFDC41D81D54700EB36DA /* Supporting Files */,
+			);
+			path = TabsAnimationTest;
+			sourceTree = "<group>";
+		};
+		A38AFDC41D81D54700EB36DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A38AFDC51D81D54700EB36DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1952DF6318E65B9B0AADBB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20E10AC44C2EF57621076761 /* libPods-TabsAnimationTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0EF11648B52CF69F8A262E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70814E26B2B420C112002C55 /* Pods-TabsAnimationTest.debug.xcconfig */,
+				3B512E80141C79DDB60AA74B /* Pods-TabsAnimationTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A38AFDC01D81D54700EB36DA /* TabsAnimationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38AFDD81D81D54700EB36DA /* Build configuration list for PBXNativeTarget "TabsAnimationTest" */;
+			buildPhases = (
+				09F72E83CE10DBC8522703D4 /* 📦 Check Pods Manifest.lock */,
+				A38AFDBD1D81D54700EB36DA /* Sources */,
+				A38AFDBE1D81D54700EB36DA /* Frameworks */,
+				A38AFDBF1D81D54700EB36DA /* Resources */,
+				B5438ED1D806E01C08FEF709 /* 📦 Embed Pods Frameworks */,
+				89BC70AD14B793E4057AA3DD /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabsAnimationTest;
+			productName = TabsAnimationTest;
+			productReference = A38AFDC11D81D54700EB36DA /* TabsAnimationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A38AFDB91D81D54700EB36DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Silvansky;
+				TargetAttributes = {
+					A38AFDC01D81D54700EB36DA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A38AFDBC1D81D54700EB36DA /* Build configuration list for PBXProject "TabsAnimationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A38AFDB81D81D54700EB36DA;
+			productRefGroup = A38AFDC21D81D54700EB36DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A38AFDC01D81D54700EB36DA /* TabsAnimationTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A38AFDBF1D81D54700EB36DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38AFDD41D81D54700EB36DA /* LaunchScreen.storyboard in Resources */,
+				A38AFDD11D81D54700EB36DA /* Assets.xcassets in Resources */,
+				A38AFDCF1D81D54700EB36DA /* Main.storyboard in Resources */,
+				A38AFDE21D81D60D00EB36DA /* ColoredView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09F72E83CE10DBC8522703D4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89BC70AD14B793E4057AA3DD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabsAnimationTest/Pods-TabsAnimationTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5438ED1D806E01C08FEF709 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabsAnimationTest/Pods-TabsAnimationTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A38AFDBD1D81D54700EB36DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38AFDCC1D81D54700EB36DA /* ViewController.m in Sources */,
+				A38AFDE01D81D5BF00EB36DA /* ColoredViewController.m in Sources */,
+				A334D14F1D81DA97009677AA /* SRHorizontalSwipeInteractionController.m in Sources */,
+				A334D1501D81DA97009677AA /* SRPanAnimationController.m in Sources */,
+				A38AFDDD1D81D5A900EB36DA /* TabBarController.m in Sources */,
+				A38AFDC91D81D54700EB36DA /* AppDelegate.m in Sources */,
+				A38AFDC61D81D54700EB36DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A38AFDCD1D81D54700EB36DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38AFDCE1D81D54700EB36DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A38AFDD21D81D54700EB36DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38AFDD31D81D54700EB36DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A38AFDD61D81D54700EB36DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A38AFDD71D81D54700EB36DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A38AFDD91D81D54700EB36DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70814E26B2B420C112002C55 /* Pods-TabsAnimationTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabsAnimationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silvansky.TabsAnimationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A38AFDDA1D81D54700EB36DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B512E80141C79DDB60AA74B /* Pods-TabsAnimationTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabsAnimationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silvansky.TabsAnimationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A38AFDBC1D81D54700EB36DA /* Build configuration list for PBXProject "TabsAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38AFDD61D81D54700EB36DA /* Debug */,
+				A38AFDD71D81D54700EB36DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38AFDD81D81D54700EB36DA /* Build configuration list for PBXNativeTarget "TabsAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38AFDD91D81D54700EB36DA /* Debug */,
+				A38AFDDA1D81D54700EB36DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A38AFDB91D81D54700EB36DA /* Project object */;
+}
