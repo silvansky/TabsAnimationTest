@@ -91,6 +91,8 @@ const NSString *kSRHorizontalSwipeGestureKey = @"kSRHorizontalSwipeGestureKey";
 				if (fraction >= 1.0)
 					fraction = 0.999;
 
+				NSLog(@"Fraction: %@, x: %@, starting x: %@", @(fraction), @(translation.x), @(_startingX));
+
 				[self updateInteractiveTransition:fraction];
 			}
 			break;
